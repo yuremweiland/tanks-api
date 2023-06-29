@@ -1,0 +1,41 @@
+.Player {
+    transition: .3s all;
+    top: 200px;
+    left: 10px;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    z-index: 9999;
+}
+
+.Player-img {
+    background-color: red;
+    mask-image: url("./img/texture.svg");
+    height: 100%;
+    margin: 2px;
+}
+
+.Player-img_rotate_up {
+    transform: rotate(-90deg);
+}
+
+.Player-img_rotate_right {
+    transform: rotate(0deg);
+}
+
+.Player-img_rotate_down {
+    transform: rotate(90deg);
+}
+
+.Player-img_rotate_left {
+    transform: rotate(180deg);
+}
+
+.Player-img_live {
+    z-index: 3;
+}
+
+.Player-img_dead {
+    z-index: 2;
+    background-color: black;
+}

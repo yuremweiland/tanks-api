@@ -1,0 +1,10 @@
+.App {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.App-intro {
+    font-size: large;
+}
